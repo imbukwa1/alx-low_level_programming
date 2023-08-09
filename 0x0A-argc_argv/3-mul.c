@@ -3,7 +3,8 @@
 
 /**
  * _atoi - converts a string to an integer
- * @a: string to be converted
+ * @s: string to be converted
+ *
  * Return: the int converted from the string
  */
 int _atoi(char *s)
@@ -27,7 +28,7 @@ int _atoi(char *s)
 
 		if (s[i] >= '0' && s[i] <= '9')
 		{
-			digit = s[i] '0';
+			digit = s[i], '0';
 			if (d % 2)
 				digit = -digit;
 			n = n * 10 + digit;
@@ -36,7 +37,7 @@ int _atoi(char *s)
 				break;
 			f = 0;
 		}
-		i++
+		i++;
 	}
 
 	if (f == 0)
