@@ -7,7 +7,7 @@
  * description: create array of size size and assign char c
  * return: pointer to array, NULL if fail
  */
-char *create_array(unsigned int size, char)
+char *create_array(unsigned int size, char c)
 {
 	char *str;
 	unsigned int i;
@@ -17,5 +17,5 @@ char *create_array(unsigned int size, char)
 
 	for (i = 0; i < size; i++)
 		str[i] = c;
-	return (str0;
+	return (str);
 }
